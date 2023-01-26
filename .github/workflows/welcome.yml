@@ -1,3 +1,5 @@
+name: Welcome workflow   
+run-name: Welcome new commits
 on: push
 jobs:
   welcome:
