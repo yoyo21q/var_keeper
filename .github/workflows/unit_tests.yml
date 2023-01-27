@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        user: actions/checkout@v3
+        uses: actions/checkout@v3
       - name: Run Unit Tests
         run: |
           chmod +x ./test/unit-tests.sh
